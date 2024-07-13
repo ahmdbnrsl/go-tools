@@ -1,11 +1,8 @@
 package main 
 
-import "go-gabut/console"
-import "go-gabut/maths"
+import "go-gabut/loop"
+
 
 func main () {
-    console.Log("Hello World!")
-    console.Log(maths.Pythagoras(30, 11))
-    console.Log(maths.Volume.Bola(7))
-    
+    loop.Cordinate(7);
 }
