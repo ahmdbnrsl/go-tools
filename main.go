@@ -1,9 +1,8 @@
 package main 
 
 // import "go-gabut/pointer"
-// import "go-gabut/console"
 // import "go-gabut/channel"
-import "go-gabut/pattern"
+import "go-gabut/cli"
 
 
 func main () {
@@ -19,5 +18,5 @@ func main () {
 //     channel.Pow2(&d, 2, 8)
 //     console.Log(<- d)
 
-    pattern.Diamond2(15)
+    cli.GetMath()
 }
